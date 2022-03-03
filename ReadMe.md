@@ -17,17 +17,9 @@ ResultType funcitonName(InputType input[, InputType2 input2]);
 
 ## shader 的输入和输出
 
-很多 opengl 教程一上来就让我们理解概念和基本数据类型
+这个教程更好：[WebGL Fundamentals](https://webglfundamentals.org/webgl/lessons/zh_cn/webgl-fundamentals.html)
 
-
-
------
-
-这个教程更好：https://webglfundamentals.org/webgl/lessons/zh_cn/webgl-fundamentals.html
-
-
-
-**shader 翻译成着色器实在让人难以理解，顶点 shader 并没有着色的过程，只提供坐标**
+**shader 翻译成着色器实在让人难以理解，顶点 shader 并没有着色的过程，只提供坐标**。
 
 理解以下概念：
 
@@ -67,17 +59,13 @@ ResultType funcitonName(InputType input[, InputType2 input2]);
 
 顶点着色器通过可变量向片断着色器传值。
 
-
-
 ### WebGL Hello World
 
 GL 只关心两件事，空间中的坐标值和颜色值。这通过 vertex shader 和 fragment shader 来完成。
 
 在 OpenGL 的世界里，画面的坐标范围永远都在 [-1,1] 之间。这就是*标准化设备坐标(Normalized Device Coordinates, NDC)*。
 
-
-
-##### Hello World
+#### 纯色
 
 vertex shader
 
@@ -121,3 +109,6 @@ void main() {
 #endif
 ```
 
+以上代码会得到一个纯色画布。
+
+#### 画个三角形
