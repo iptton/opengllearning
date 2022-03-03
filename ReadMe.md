@@ -1,27 +1,7 @@
 
+# OpenGL Learing
 
-## 基础概念
-
-纹理有两种
-
-Shader 有两种：
-
-- fragment (片段着色器)
-- vertex （顶点着色器)
-
-https://stackoverflow.com/questions/4421261/vertex-shader-vs-fragment-shader
-
-https://en.wikipedia.org/wiki/Graphics_pipeline
-
-
-
-vertex 对顶点进行变换，以得到物体轮廓，fragment 则决定每个像素的 color 等信息。
-
-fragment 的输入是 vertex 的输出，*vertex 的输入呢？*
-
-vertex 一般很快
-
-----
+这是一个记录学习 OpenGL 的个人项目。
 
 ## Hello world
 
