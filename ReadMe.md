@@ -1,6 +1,9 @@
 
 # OpenGL Learing
 
+Android 用的是 OpenGL-ES, iOS 则是 Metal，他们中有自己的 shader 语言，网上有收费及免费的语言转换工具可用。
+
+
 这是一个记录学习 OpenGL 的个人项目。
 
 ## Hello world
